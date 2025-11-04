@@ -14,7 +14,7 @@
 # A variable stores information with a NAME and a VALUE.
 # Example:
 # fruit = "apple"
-# colour = "red"
+colour = "red"
 # print(f"The {fruit} is {colour}!")
 #
 # 👉 Good variable names describe what they store (fruit, colour).
@@ -67,7 +67,7 @@ print(f"Hello {name}")
 # 3. Print a message showing their age and the current year
 city = input("What city do you live in?")
 current_year = 2025
-age = input("What is you age?")
+age = input("What is your age?")
 print(f"In {current_year}, you are living in {city}.")
 print(f"In {current_year}, and she is {age}")
 # -------------------------------------------
@@ -86,6 +86,11 @@ print(f"In {current_year}, and she is {age}")
 # Extension A:
 # - Ask the user for their favourite drink and favourite place
 # - Print a single, short message using name, drink, and place
+name = input("What is your name?")
+print(f"Hello {name}")
+favourite_drink= input("What is your favourite drink?")
+favourite_place= input("What is your favourite place?")
+print(f"My name is {name}, favourite drink is {favourite_drink} and my favourite place is {favourite_place}")                      
 
 # Extension B:
 # - Also ask the user for their favourite hobby
@@ -104,11 +109,14 @@ print(f"In {current_year}, and she is {age}")
 #    Age: ...
 #    Food: ...
 #    Colour: ...
+print(f"Name: {name}\nAge: {age}\nFood: {favourite_food}\nColour: {colour}")
 
 # Extension D (Bonus Maths):
 # - Ask the user for their age
 # - Print how old they will be in 5 years
 # - Print how many years until they are 100
+print(f"In 5 years you will be {int(age)+5}")
+print(f"It will be {100-int(age)} before you are 100")
 
 # -------------------------------------------
 # Git Task: Submit your work!
