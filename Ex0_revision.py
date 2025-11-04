@@ -14,7 +14,7 @@
 # A variable stores information with a NAME and a VALUE.
 # Example:
 # fruit = "apple"
-# colour = "red"
+colour = "red"
 # print(f"The {fruit} is {colour}!")
 #
 # 👉 Good variable names describe what they store (fruit, colour).
@@ -28,6 +28,14 @@
 #    For example: "My favourite sport is football."
 #    (Don’t just copy this! Use your own values.)
 
+favourite_sport = "badminton"
+favourite_food = "fruit"
+favourite_number = 30
+print(f"My favourite sport is {favourite_sport}")
+print(f"My favourite number is {favourite_number}")
+print(f"My favourite food is {favourite_food}")
+print(f"My favourite food is {favourite_food} and my favourite number is {favourite_number}")
+
 # Step 2: Input Practice (ask the user for answers)
 # -------------------------------------------------
 # We can ask the user questions using input().
@@ -38,6 +46,10 @@
 # 1. Ask the user for their name
 # 2. Store it in a variable called "name"
 # 3. Print a message that says hello to them
+
+name = input("What is your name?")
+name = "Rekha"
+print(f"Hello {name}")
 
 # Step 3: Combine Variables and Input
 # -----------------------------------
@@ -53,7 +65,11 @@
 # 1. Create a variable called current_year and set it to 2025
 # 2. Ask the user for their age
 # 3. Print a message showing their age and the current year
-
+city = input("What city do you live in?")
+current_year = 2025
+age = input("What is your age?")
+print(f"In {current_year}, you are living in {city}.")
+print(f"In {current_year}, and she is {age}")
 # -------------------------------------------
 # Git Task: Submit your work!
 # -------------------------------------------
@@ -70,6 +86,11 @@
 # Extension A:
 # - Ask the user for their favourite drink and favourite place
 # - Print a single, short message using name, drink, and place
+name = input("What is your name?")
+print(f"Hello {name}")
+favourite_drink= input("What is your favourite drink?")
+favourite_place= input("What is your favourite place?")
+print(f"My name is {name}, favourite drink is {favourite_drink} and my favourite place is {favourite_place}")                      
 
 # Extension B:
 # - Also ask the user for their favourite hobby
@@ -88,11 +109,14 @@
 #    Age: ...
 #    Food: ...
 #    Colour: ...
+print(f"Name: {name}\nAge: {age}\nFood: {favourite_food}\nColour: {colour}")
 
 # Extension D (Bonus Maths):
 # - Ask the user for their age
 # - Print how old they will be in 5 years
 # - Print how many years until they are 100
+print(f"In 5 years you will be {int(age)+5}")
+print(f"It will be {100-int(age)} before you are 100")
 
 # -------------------------------------------
 # Git Task: Submit your work!
